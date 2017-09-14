@@ -1,0 +1,79 @@
+*{margin:0 auto; padding:0px; list-style:none; text-decoration:none; outline:none; border-color:none; box-sizing:border-box;}
+
+
+.container{width:100%; max-width:1200px;}
+
+.header{float:left; width:100%; background:url(../images/background.jpg) center no-repeat; background-size:100% 100%; border-top:8px solid #2ecc71;}
+
+.header_box{float:left; width:100%;}
+
+.notify{float:left; width:100%; padding:100px 100px 100px 100px;}
+.notify_logo{float:left; width:100%;}
+.notify_logo a{float:left; width:auto;}
+
+.notify h1{float:left; width:100%; font-size:24px; color:#FFF; margin-top:20px;}
+
+
+.icon ul{float:left; width:100%;}
+.icon li{float:left; margin-left:20px;}
+.icon li a{float:left; width:100%; background-color:#38231a; border-radius:50px; padding:10px; margin-top:50px; }
+.icon li a:hover, .icon li a.active{background-color:#2ecc71;}
+
+
+.section_first{float:left; width:100%;}
+.information{float:left; width:100%; margin-top:30px; margin-bottom:30px; text-align:center;}
+.information a{float:left; width:100%; text-align:center; display:inline-block;}
+.information h3{float:none; font-size:16px; text-align:center; display:inline-block;   color:#222222;}
+.information p{float:left; font-size:12px; text-align:center; display:inline-block;}
+
+.section_second{float:left; width:100%; background:#e3e3e3;}
+
+.get_notify{float:left; width:100%; padding:70px;}
+.get_notify h3{float:left; width:100%; font-size:22px; margin-bottom:20px;}
+.get_notify p{float:left; width:100%; font-size:18px; margin-bottom:20px; color:#c6c6c6;}
+
+.Email_address{float:left; width:100%;}
+.text1{float:left; width:50%;}
+.text1 input{ padding:12px; padding-right:104px; color:#c6c6c6;  border-radius:10px 0px 0px 10px; border:0px;}
+
+.btn{float:none; width:50%; text-align:center;}
+.btn input{background:#2ecc71; padding:12px; margin-top:-7px;  padding-right:50px; color:#FFF; font-size:14px; border-radius:0px 10px 10px 0px; border:0px;}
+
+.image{float:right;   padding:40px;}
+.image a{float:right; width:100%;}
+
+
+.section_third{float:left; width:100%; background:#FFF;}
+.detail{float:none; width:100%; text-align:center; padding: 20px 20px; }
+.detail p{float:left; width:100%; font-size:14px;   color:#c6c6c6; padding-bottom:20px;}
+.detail  h4 {float:left; width:100%; font-size:18px; padding-bottom:20px; }
+
+.icon_list{float:left; width:100%; padding-bottom:20px;}
+
+.icon_list ul{float:left; width:100%;}
+.icon_list li{float:left; margin-right:3px; position:relative;}
+.icon_list li a{float:left; width:100%; }
+.detail h3{float:left; width:100%; font-size:20px;   }
+.detail h5{float:left; width:100%; font-size:12px;  color:#c6c6c6; margin-top:20px;  }
+
+
+
+.icons{float:left; width:100%; margin-top:30px; margin-bottom:30px;}
+.icons ul{float:left; width:100%;}
+.icons li{float:none; text-align:center; display:inline-block;}
+.icons li a{float:left;  background-color:#d4d4d4; border-radius:50px; padding:10px }
+.icons li a:hover, .icons li a.active{background-color:#62d995;}
+
+
+.footer{float:left; width:100%; background:#e3e3e3; padding:40px; }
+
+.list{float:left; width:100%; text-align:center;}
+.list ul{float:left; width:100%;}
+.list li{float:none; width:auto; display:inline-block; margin-left:15px; color:#c6c6c6;}
+.list li a{float:left; color:#000; text-decoration:none;}
+
+.list li a:hover , .list li a.active{color:#62d995;}
+
+
+.hover{float:left; width:100%; height:100%; background-color:#0C0; opacity:0.6; position:absolute; top:0; display:none}
+.icon_list li:hover .hover{display:block;}

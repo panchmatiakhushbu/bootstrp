@@ -1,0 +1,86 @@
+*{margin:0 auto; padding:0px; list-style:none; text-decoration:none; outline:none; border-color:none; box-sizing:border-box;}
+.row {margin: 0 -10px;}
+.container{width:100%; max-width:960px;}
+
+.header{float:left; width:100%;  border-top:30px solid #000; }
+
+.email_id{float:right;}
+.email_id p{float:right; font-size:14px;  padding-top:20px; color:#bababa;}
+
+
+.logo{float:left;}
+.logo a{float:left; width:100%;}
+
+.menu{float:left; width:100%; padding-top:30px;}
+.menu li{float:left; }
+.menu li a{float:right; padding-right:35px; color:#fb6041; font-size:14px; border-radius:4px; text-transform:uppercase; position:relative; text-decoration:none; }
+.menu ul{float:left;}
+.menu ul li.active a, .menu ul li a:hover{color:#000; }
+
+.section_first{float:left; width:100%; margin-top:20px; }
+.line{float:left; border-top:3px solid #bababa; padding-top:20px;}
+
+.background{float:left;  background:#f78800;}
+.text{float:left; margin-top:20px; }
+.text h5{float:left; font-size:75px; color:#FFF; margin-left:40px;}
+.info{float:left; margin-left:40px; padding:10px; }
+.info p{float:left; font-size:14px; background:#000; color:#999898; padding:10px;}
+.info a{float:left; font-size:14px; background:#000; color:#f78800; padding:10px;}
+
+.image{float:left; width:100%; margin-left:-24px;}
+.imade a{float:right; width:100%; padding-right:20px;}
+
+.section_second{float:left; width:100%; margin-top:20px;}
+.line{float:left; border-top:3px solid #bababa; padding-top:20px;}
+.line1{float:left; width:100%;  padding:3px; background:#000; margin-top:10px; margin-bottom:10px;}
+.aboutus{float:left;}
+.aboutus a{float:left; margin-right:20px;}
+.aboutus h3{float:left; font-size:16px;}
+.aboutus p{float:left; font-size:14px;} 
+
+.aboutus h4{float:left; font-size:16px;}
+
+
+.section_third{float:left; width:100%; padding-top:20px;}
+.line{float:left; border-top:3px solid #bababa; padding-top:20px;}
+.ourportfolio{float:left;}
+.ourportfolio h3{float:left; font-size:16px;}
+.ourportfolio a{float:left; margin-right:20px;}
+.images{float:left;} 
+.images a{float:left; width:100%;}
+
+
+.section_forth{float:left; width:100%; padding-top:20px;}
+.line{float:left; border-top:3px solid #bababa; padding-top:20px;}
+.blogupdate{float:left;}
+.blogupdate a{float:left; margin-right:20px;}
+.blogupdate h3{float:left; font-size:16px;}
+.blogupdate p{float:left; font-size:14px;}
+.connectwithus{float:right;}
+
+.connectwithus h3{float:right; font-size:16px;}
+.icon{float:right;}
+.icon a{float:left; margin-right:7px;}
+
+.footer{float:left; width:100%; background:#e2e2e2; margin-top:20px; }
+.footer_menu{ float:left;}
+.footer_menu li{float:left;  padding-top:20px;}
+.footer_menu ul{float:left; }
+.footer_menu li a{float:left; padding-right:10px; color:#9b9b9b; font-size:14px;  }
+.footer_menu p{float:left; font-size:14px;  color:#9b9b9b;}
+.footer_logo{float:right;}
+.footer_logo a{float:right; width:100%;  padding-top:20px;}
+
+
+
+
+@media screen and (max-width:1199px) 
+{
+.wrapper {width: 96%}
+
+}
+@media screen and (max-width:991px)
+{
+	.menu li a{padding-right:14px;}
+	.logo a{padding-top:10px;}
+}
